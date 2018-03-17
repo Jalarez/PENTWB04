@@ -1,0 +1,26 @@
+//Formula adaptativa
+
+//Formula general
+
+@ancho_fixed: (@columnas * @ancho_columnas) + (@columnas * @ancho_margen) *1px;
+
+@ancho_total: 100%;
+
+//Mixing 
+
+.columnas(@ocupa){
+	width: @ancho_total * ((((@ancho_columnas + @ancho_margen) * @ocupa) - @ancho_margen) / @ancho_fixed);
+}
+
+
+//Formula dos
+
+@ancho_fixed2: (@columnas2 * @ancho_columnas2) + (@columnas2 * @ancho_margen2) *1px;
+
+@ancho_total2: 100%;
+
+//Mixing 
+
+.columnas2(@ocupa){
+	width: @ancho_total2 * ((((@ancho_columnas2 + @ancho_margen2) * @ocupa) - @ancho_margen2) / @ancho_fixed2);
+}

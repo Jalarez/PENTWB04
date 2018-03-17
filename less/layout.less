@@ -1,0 +1,43 @@
+//Estilo
+@lateral: cornsilk;
+
+@font-face{
+	font-family: 'yahoo';
+	src:url('font/yahoo.eot');
+	src:local(':)'),
+		url('font/yahoo.eot?#iefix') format('embedded-opentype'),
+		url('font/yahoo.woff') format('woff'),
+		url('font/yahoo.tff') format('truetype'),
+		url('font/yahoo.svg#yahoo') format('svg');
+}
+
+header{
+	height: 60px;
+	background-color:@cabecera;
+}
+
+nav{
+	background-color:@menu;
+}
+
+#cabecera{
+	font: 20px "yahoo", sans-serif;
+	color: @color_cabecera;
+}
+
+#content{
+	width: 100%
+	heigth:100;
+}
+
+#left{
+	float:left;
+	.columnas(3);
+	heigth:100%;
+}
+
+#right{
+	float: left;
+	.columnas(9);
+	background-color: @lateral;
+}

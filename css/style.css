@@ -1,0 +1,24 @@
+html,body,body div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,sampsmall,strong,sub,var,b,i,dl,dd,dt,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box}article,aside,figure,footer,header,hgroup,nav,section{display:block}html,body{background:#fafafa;margin:0;height:100%}@font-face{font-family:'yahoo';src:url('font/yahoo.eot');src:local(':)'),url('font/yahoo.eot?#iefix') format('embedded-opentype'),url('font/yahoo.woff') format('woff'),url('font/yahoo.tff') format('truetype'),url('font/yahoo.svg#yahoo') format('svg')}header{height:60px;background-color:#99f}nav{background-color:black;}#cabecera{font:20px "yahoo",sans-serif;color:#066}#content{width:100% heigth:100}#left{float:left;width:22.916666666666664%;heigth:100%}#right{float:left;width:72.91666666666666%;background-color:#fff8dc}
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+#left a{
+	display: block;
+	width: 8em;
+	color: black;
+	line-height: 30px;
+	text-decoration: none;
+	
+	border: 1px solid #fff;
+	margin: 0 -1px -1px 0;
+}
+
+#lat1 a{
+	background: red; 
+}
+
+#lat2 a{
+	background: blue; 
+}
+
+#lat3 a{
+	background: yellow; 
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>::Hotel del mar::</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Jose Luis Alarez">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/hover.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/tiksluscarousel.js"></script>
+        <script type="text/javascript" src="js/rainbow.min.js"></script>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/tiksluscarousel.css" />
+        <link rel="stylesheet" href="css/github.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+    </head>
+
+    <body>
+    	<header>
+    		<h1 id="cabecera">Hotel del mar</h1>
+    		<nav>
+                <ul class="menu">
+                    <li><a href="#"><i class="icon-home"></i>Inicio</a>
+                    <li><a href="#"><i class="icon-home"></i>Reservaciones</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Sucursal</a></li>
+                            <li><a href="#">Instalaciones</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="icon-home"></i>Hotel</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Sucursal</a></li>
+                            <li><a href="#">Instalaciones</a></li>
+                        </ul>
+                    </li>
+                    <li><a  href="#"><i class="icon-bullhorn"></i>Ingresa</a></li>
+                 </ul>
+            </nav>
+    	</header>
+        <br><br>
+    	<div id="content">
+    		
+            
+
+    		<aside id="left" class="effects">
+    			<div id="lat1" class="effects"><a href="#" class="hvr-wobble-horizontal">Conocenos</a></div>
+    			<div id="lat2" class="effects"><a href="#" class="hvr-wobble-horizontal">Ubicacion</a></div>
+    			<div id="lat3"class="effects"><a href="#" class="hvr-wobble-horizontal">Contactanos</a></div>
+    		</aside>
+
+    		<aside id="rigth">
+                
+    			<div id="carrusel">
+                <ul>
+                    <li><img src="img/s1.jpg" /></li>
+                    <li><img src="img/s2.jpg" /></li>
+                    <li><img src="img/s3.jpg" /></li>
+                    <li><img src="img/s4.jpg" /></li>
+                    <li><img src="img/s5.jpg" /></li>
+                </ul>
+
+                <script language="javascript">
+                     $(document).ready(function(){
+                     $("#carrusel").tiksluscarousel({width:640,height:480,nav:'thumbnails',current:1});
+                     });
+                </script>
+
+
+            </div>
+    		</aside>
+
+    	</div>
+    </body>
+
+</html>
